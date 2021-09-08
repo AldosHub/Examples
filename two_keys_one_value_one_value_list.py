@@ -2,7 +2,7 @@ cities = {
     'City': 'Sanfrancisco', 'Facts': {
         'Population': 'Millions', 'Density':'High',
         },
-    'City': 'Tulare', 'Facts': {
+    'City': 'Alameda', 'Facts': {
         'Population': 'Thousands', 'Density':'Low',
         },
     'City': 'New York', 'Facts': {
