@@ -1,0 +1,34 @@
+prompt = "I need to see your ID"
+prompt += "\nHow old are you? "
+
+while True:
+    if input(prompt) >= '21':
+        print("you may buy alcohol")
+        break                       #NO BREAK HERE WILL CALL TO PROMPT INFINITY#
+    else: 
+        print('You may not buy alcohol')
+        break
+
+age = input("How old are you? ")
+
+while True:
+    if age >= '21':
+        print("you may buy alcohol") #NO BREAK HERE WILL PRINT INFINITY#
+    else: 
+        print('You may not buy alcohol')
+        break
+                                    #WILL REPEAT INPUT TIL GREATER THAN 21#
+while input("how old are you? ") <= '21':
+    print("sorry try again")
+else:
+    print("Nice")
+
+age = int(input("how old are you? "))
+while age <= 21:
+    print(age)                      #SERIES (Ouput(n+1)=2n) LET INPUT = n #
+    age += age
+
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number += 1
